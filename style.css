@@ -101,7 +101,7 @@ h1:hover{
     color: black;
 }
 header .navbarcopy {
-    margin-left: 1100px;
+    margin-left: 800px;
 }
 @media(max-width:600px){
     header .navbarcopy{
