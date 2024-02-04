@@ -89,7 +89,7 @@ header .icons #menu-bars{
 
 }
 h1{
-    margin-left: -530px;
+    margin-left: 10px;
     letter-spacing: 4px;
 }
 h1:hover{
@@ -101,20 +101,19 @@ h1:hover{
     color: black;
 }
 header .navbarcopy {
-    margin-left: 500px;
-    width:100%;
+    margin-left: 1100px;
 }
-/* @media(min-width:600px){
-    header .navbar{
-        display: none;
-    }
-}
-
 @media(max-width:600px){
     header .navbarcopy{
         display: none;
     }
-} */
+}
+
+@media(min-width:600px){
+    header .navbar{
+        display: none;
+    }
+}
 header .navbarcopy a{
     font-size: 2.2rem;
     border-radius: .5rem;
