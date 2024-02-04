@@ -101,16 +101,17 @@ h1:hover{
     color: black;
 }
 header .navbarcopy {
-    margin-left: 800px;
+    margin-left: 1000px;
+    width:100%;
 }
-@media(max-width:600px){
-    header .navbarcopy{
+@media(min-width:600px){
+    header .navbar{
         display: none;
     }
 }
 
-@media(min-width:600px){
-    header .navbar{
+@media(max-width:600px){
+    header .navbarcopy{
         display: none;
     }
 }
